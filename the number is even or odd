@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+    int n=6;
+    if(n%2==0)
+    {
+   printf("The given number is even");
+   scanf("%d",&n);
+    }
+    else
+   {
+       printf("The given num is odd");
+       scanf("%d",&n);
+   
+   } 
+
+    return 0;
+}
+
