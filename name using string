@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include<string.h>
+char name[7];
+void main()
+{
+printf("Enter ur name:");
+scanf("%s",&name);
+printf("Length of your name is %d",strlen(name)); 
+}
